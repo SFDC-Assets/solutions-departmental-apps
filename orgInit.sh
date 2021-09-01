@@ -3,7 +3,7 @@
 # sfdx force:org:create -f config/project-scratch-def.json --setalias departmental-apps --setdefaultusername
 
 # Create the demo org (uncomment for the SFDX scratch org deployer)
-sfdx shane:org:create -f config/project-scratch-def.json -d 30 -s --wait 60 --userprefix admin -o electron.demo
+sfdx shane:org:create -f config/project-scratch-def.json -d 3 -s --wait 60 --userprefix admin -o electron.demo
 
 # Push the metadata into the new scratch org.
 sfdx force:source:push
